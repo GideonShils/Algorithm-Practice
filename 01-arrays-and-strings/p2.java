@@ -1,3 +1,5 @@
+// Check if a string is a permutation of another string
+
 import java.util.*;
 
 public class p2 {

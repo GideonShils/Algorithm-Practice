@@ -1,3 +1,5 @@
+// Check if the characters in a string are unique
+
 import java.util.*;
 
 public class p1 {

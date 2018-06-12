@@ -1,3 +1,5 @@
+// Assuming a buffer at the end of a string, replace all spaces with "%20"
+
 import java.util.*;
 
 public class p3 {
