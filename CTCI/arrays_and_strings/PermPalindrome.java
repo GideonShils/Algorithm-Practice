@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class p4 {
+public class PermPalindrome {
 	// To be a palindrome, must either have even num of every char and even length,
 	// or odd length with odd num of one character
 	static boolean isPalPerm (String str) {

@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class p1 {
+public class UniqueChars {
 	/* Simple hashset implementation. - Runs in O(N) time and takes O(N) space.
 	/
 	/  If the number of possible characters was constrained (e.g. ASCII), we could

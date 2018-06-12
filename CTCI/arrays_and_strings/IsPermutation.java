@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class p2 {
+public class IsPermutation {
 	// Assume ASCII. If unicode is used, we may want to use a 
 	// hashmap instead to account for the high variability of characters
 	static boolean isPermutation (String str1, String str2) {

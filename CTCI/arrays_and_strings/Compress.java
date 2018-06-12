@@ -2,7 +2,7 @@
 // e.g. aaabbb = a3b3
 import java.util.*;
 
-public class p6 {
+public class Compress {
 	static String compress(String str) {
 		StringBuilder compressed = new StringBuilder();
 		char c = str.charAt(0);

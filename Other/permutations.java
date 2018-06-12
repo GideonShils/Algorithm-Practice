@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class permutations {
+public class Permutations {
     // Top down approach. Break off last char, recurse on remainder,
     // insert in all locs, merge 
 	static HashSet<String> permute (String str) {

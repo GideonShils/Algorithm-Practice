@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class p9 {
+public class IsRotation {
 	// In this case, we'll use .contains instead of a custom .isSubstring
 	static boolean isRotation(String str1, String str2) {
 		// Ensure same length

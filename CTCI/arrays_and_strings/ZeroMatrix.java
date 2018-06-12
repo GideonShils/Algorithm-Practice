@@ -2,7 +2,7 @@
 // O(N) runtime, O(N + M) space
 import java.util.*;
 
-public class p8 {
+public class ZeroMatrix {
 	static int[][] zero(int[][] matrix) {
 		boolean[] rows = new boolean[matrix.length];
 		boolean[] cols = new boolean[matrix[0].length];

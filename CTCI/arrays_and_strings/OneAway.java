@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class p5 {
+public class OneAway {
 	
 	static boolean oneAway (String str1, String str2) {
 		// If lenghts diff by more than 1 chars, return false

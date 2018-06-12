@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class p3 {
+public class URLify {
 	// Assumes a perfectly sized char array
 	// If untrue, we can replace end with length + (num spaces * 2)
 	static char[] URLify (char[] str, int length) {

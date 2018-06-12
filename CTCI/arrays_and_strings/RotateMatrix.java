@@ -1,7 +1,7 @@
 // Rotate NxN image matrix by 90 degrees where each pixel is 4 bytes.
 import java.util.*;
 
-public class p7 {
+public class RotateMatrix {
 	static int[][] rotate(int[][] img) {
 		// Iterate over layers (outer to inner)
 		for (int i = 0; i < img.length/2; i++) {
