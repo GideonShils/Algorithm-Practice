@@ -2,7 +2,6 @@
 import java.util.*;
 
 public class Intersection {
-    // We could create a new reversed list, but this takes more space than a simple array
 	public static Node getIntersection(Node head1, Node head2) {
         Node currNode1 = head1;
         Node currNode2 = head2;
