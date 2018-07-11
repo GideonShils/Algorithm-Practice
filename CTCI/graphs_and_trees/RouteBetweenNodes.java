@@ -3,7 +3,7 @@ import java.util.*;
 
 public class RouteBetweenNodes {
     // Uses BFS to determine if there is a route
-	public static boolean findRoute(Node start, Node end) {
+	public static boolean bfs(Node start, Node end) {
         Queue<Node> queue = new LinkedList<Node>();
         queue.add(start);
         while(!queue.isEmpty()) {
@@ -19,7 +19,22 @@ public class RouteBetweenNodes {
             }
         }
         return false;
-	}
+    }
+    
+    // Uses DFS to determine if there is a route
+    public static boolean dfs(Node currNode, Node end) {
+        if (currNode == end) {
+            return true;
+        }
+
+        currNode.visited = true;
+        for (Node n : currNode.children) {
+            if (!n.visited) {
+                return dfs(n, end);
+            }
+        }
+        return false;
+    }
 
     // Driver
 	public static void main(String args[]) {
@@ -43,7 +58,7 @@ public class RouteBetweenNodes {
         four.addChild(two);
         four.addChild(five);
 
-        if (findRoute(three, five)) {
+        if (dfs(two, five)) {
             System.out.println("Found route");
         } else {
             System.out.println("No route found");
