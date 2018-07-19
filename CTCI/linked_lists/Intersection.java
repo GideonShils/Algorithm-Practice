@@ -1,4 +1,4 @@
-// Check if a linked list is a palindrome
+// Return the Node of intersection
 import java.util.*;
 
 public class Intersection {
