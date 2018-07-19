@@ -8,7 +8,8 @@
 import java.util.*;
 
 public class BuildOrder {
-    // 
+    // Creates directed graph, then repeatedly adds nodes with
+    // No incoming edges until done
 	public static ArrayList<Node> getOrder(ArrayList<Node> projs, ArrayList<Pair> deps) {
         // Build dependency directed graph (add children based on list)
         // while keeping track of # of incoming edges
