@@ -4,7 +4,7 @@
 import java.util.*;
 
 public class FlipToWin {
-    // 
+    // Iterate bits. At each 0 bit, check if previous seq of 1 + next seq of 1s > max
 	public static int flip(int n) {
         int max = 1;
         int prevSeq = 0;
