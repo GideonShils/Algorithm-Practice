@@ -3,8 +3,6 @@
 // determine if the robot can move from the start to the end and return the path
 import java.util.*;
 
-import com.sun.javafx.scene.paint.GradientUtils.Point;
-
 public class Robot {
 
     public static ArrayList<Point> robot(boolean[][] maze) {
